@@ -19,9 +19,9 @@ public class SolicitudEntiry {
     @Id
     @Column("id_solicitud")
     private Long id_solicitud;
-    private Float monto;
+    private Double monto;
     private Integer plazo;
     private String email;
-    private Estado estado;
-    private TipoPrestamo tipoPrestamo;
+    private Long id_estado;
+    private Long id_tipo_prestamo;
 }
